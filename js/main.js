@@ -1,6 +1,4 @@
-//console.log("Up and running!");
 
-//var cards = ["queen", "queen", "king", "king"];
 var cards = [
 	{
 	rank: "queen",
@@ -46,7 +44,6 @@ var flipcard = function () {
 
 			if (cardsInPlay.length === 2) {
 				checkForMatch();
-			//if (cardsInPlay[0] === cardsInPlay[1]) {alert("You found a match!")} else {alert("Sorry, try again.")};
 			}	
 };
 
@@ -62,8 +59,8 @@ var createBoard = function(){
 
 
 createBoard();
-//flipcard(0);
-//flipcard(3);
+
+
 
 
 
